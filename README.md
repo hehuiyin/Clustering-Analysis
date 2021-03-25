@@ -11,8 +11,8 @@ The dataset contains monthly data over time on a random sample 25,000 customers 
 
 3.	satis_survey: A brief survey implemented by the firm in which they asked their customers how satisfied they were overall with the firm’s recent service. The survey data is provided on a five point Liker scale format, where the five possible numerical values provided by customers surveyed are the following:
 
-  * 1 = very dissatisfied with recent service
-  *	2 = dissatisfied with recent service
+  + 1 = very dissatisfied with recent service
+  +	2 = dissatisfied with recent service
   *	3 = neither satisfied nor dissatisfied with recent service
   *	4 = satisfied with recent service
   *	5 = very satisfied with recent service
