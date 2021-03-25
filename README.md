@@ -11,18 +11,18 @@ The dataset contains monthly data over time on a random sample 25,000 customers 
 
 3.	satis_survey: A brief survey implemented by the firm in which they asked their customers how satisfied they were overall with the firm’s recent service. The survey data is provided on a five point Liker scale format, where the five possible numerical values provided by customers surveyed are the following:
 
-* 1 = very dissatisfied with recent service
-*	2 = dissatisfied with recent service
-*	3 = neither satisfied nor dissatisfied with recent service
-*	4 = satisfied with recent service
-*	5 = very satisfied with recent service
+  * 1 = very dissatisfied with recent service
+  *	2 = dissatisfied with recent service
+  *	3 = neither satisfied nor dissatisfied with recent service
+  *	4 = satisfied with recent service
+  *	5 = very satisfied with recent service
 
 4.	survey_date: the actual date when the customer was surveyed 
 
 5.	months_since_survey: the number of months that have elapsed since the customer was first surveyed. 
 
-* For example, a value of “-1” means the customer doesn’t get surveyed until the following month; a value of “0” means the customer was surveyed in that month; a value of “+2” means the customer was surveyed two months ago. 
-* This variable is useful for looking at changes in investment dollars before vs. after the customer was surveyed. 
+  * For example, a value of “-1” means the customer doesn’t get surveyed until the following month; a value of “0” means the customer was surveyed in that month; a value of “+2” means the customer was surveyed two months ago. 
+  * This variable is useful for looking at changes in investment dollars before vs. after the customer was surveyed. 
 
 6.	total_investments: the total investments in dollars that each customer has with the firm by month.
 
