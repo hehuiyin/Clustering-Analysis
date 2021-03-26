@@ -32,4 +32,4 @@ The dataset contains monthly data over time on a random sample 25,000 customers 
 
 9.	tottrans: The total number of transactions the customer executed on their accounts with the firm by month 
 
-
+The complete analysis can be found: https://hehuiyin.github.io/Clustering-Analysis/
