@@ -645,4 +645,5 @@ inv_change_table[2,4]*count_cluster2
 ```  
 
 There are 4,146 customers in cluster 2 and we expected them to lose 7,807,913. We had 2,734 customer in cluster 3 which is expected to lose 12,444,129.
+
 ---

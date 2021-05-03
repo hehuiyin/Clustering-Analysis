@@ -358,7 +358,7 @@ dim(data1)</code></pre>
 <pre><code>## &#39;data.frame&#39;:    1741041 obs. of  9 variables:
 ##  $ cust_id            : int  67 67 67 67 67 67 67 67 67 67 ...
 ##  $ yearmonth          : int  201012 201101 201102 201103 201104 201105 201106 201107 201108 201109 ...
-##  $ survey_date        : Factor w/ 2619 levels &quot;&quot;,&quot;01/01/2014&quot;,..: 1 1 1 1 1 1 1 1 1 1 ...
+##  $ survey_date        : chr  &quot;&quot; &quot;&quot; &quot;&quot; &quot;&quot; ...
 ##  $ months_since_survey: int  -64 -63 -62 -61 -60 -59 -58 -57 -56 -55 ...
 ##  $ satis_survey       : int  NA NA NA NA NA NA NA NA NA NA ...
 ##  $ cust_age           : num  31.8 31.9 32 32.1 32.1 ...
@@ -779,6 +779,16 @@ nb=NbClust(X.scaled,distance=&quot;euclidean&quot;, min.nc=2, max.nc=20, method=
 ##  
 ## *******************************************************************</code></pre>
 <pre class="r"><code>fviz_nbclust(nb)</code></pre>
+<pre><code>## Warning in if (class(best_nc) == &quot;numeric&quot;) print(best_nc) else if
+## (class(best_nc) == : the condition has length &gt; 1 and only the first element
+## will be used</code></pre>
+<pre><code>## Warning in if (class(best_nc) == &quot;matrix&quot;) .viz_NbClust(x, print.summary, : the
+## condition has length &gt; 1 and only the first element will be used</code></pre>
+<pre><code>## Warning in if (class(best_nc) == &quot;numeric&quot;) print(best_nc) else if
+## (class(best_nc) == : the condition has length &gt; 1 and only the first element
+## will be used</code></pre>
+<pre><code>## Warning in if (class(best_nc) == &quot;matrix&quot;) {: the condition has length &gt; 1 and
+## only the first element will be used</code></pre>
 <pre><code>## Among all indices: 
 ## ===================
 ## * 2 proposed  0 as the best number of clusters
@@ -997,10 +1007,9 @@ inv_change_table[3,4]*count_cluster3</code></pre>
 <pre class="r"><code>  #expected loss for cluster 2
 inv_change_table[2,4]*count_cluster2</code></pre>
 <pre><code>## [1] 7807913</code></pre>
+<p>There are 4,146 customers in cluster 2 and we expected them to lose 7,807,913. We had 2,734 customer in cluster 3 which is expected to lose 12,444,129.</p>
+<hr />
 </div>
-</div>
-<div id="there-are-4146-customers-in-cluster-2-and-we-expected-them-to-lose-7807913.-we-had-2734-customer-in-cluster-3-which-is-expected-to-lose-12444129." class="section level2">
-<h2>There are 4,146 customers in cluster 2 and we expected them to lose 7,807,913. We had 2,734 customer in cluster 3 which is expected to lose 12,444,129.</h2>
 </div>
 </div>
 
