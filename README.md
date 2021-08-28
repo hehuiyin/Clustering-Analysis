@@ -114,4 +114,4 @@ Recalled from previous calculations, Inv_Change is calculated by Investment 3 mo
 
 When we received new customer data, we can map them into our model to identify which cluster they belong to. We first calculated the Euclidean distances for our new customers to each clusters. And then we can assign each customer to their closest cluster which would be the segment they belong to.
 
-The complete analysis can be found: https://hehuiyin.github.io/Clustering-Analysis/
+The complete analysis can be found on: https://hehuiyin.github.io/Clustering-Analysis/
